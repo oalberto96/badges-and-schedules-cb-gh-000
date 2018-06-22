@@ -20,6 +20,6 @@ end
 def printer(speakers)
   badges = batch_badge_creator(speakers)
   rooms = assign_rooms(speakers)
-  badges.first
-  rooms.first
+  puts badges.first
+  puts rooms.first
 end
