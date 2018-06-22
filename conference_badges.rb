@@ -22,5 +22,4 @@ def printer(speakers)
   rooms = assign_rooms(speakers)
   badges.each{|badge| puts badge}
   rooms.each{|room| puts room}
-  puts rooms
 end
